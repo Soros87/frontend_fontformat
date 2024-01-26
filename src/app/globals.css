@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+
+  /* COLORS   */
+  --grey-50: #eeedeb;
+  --peach-50: #e0ccbe;
+  --sage-50: #747264;
+  --winter-50: #3c3633;
+
+  --black-50: #4a4a4a;
+  --black-75: #1d1d1d;
+  --black-100: #181818;
+  --black-125: #101010;
+  --black-150: #000000;
+
+  --white-50: #ffffff;
+  --white-100: #e7e7e7;
+  --white-125: #b0b0b0;
+  --white-150: #818181;
+}
+
+body {
+  font-family: var(--font-sora);
+  color: var(--white-100);
+  background: var(--background);
+}
