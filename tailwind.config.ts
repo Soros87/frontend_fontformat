@@ -7,6 +7,21 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontSize: {
+      display: ["var(--fs-display)", { lineHeight: "var(--lh-display)" }],
+      h1: ["var(--fs-h1)", { lineHeight: "var(--lh-h1)" }],
+      h2: ["var(--fs-h2)", { lineHeight: "var(--lh-h2)" }],
+      h3: ["var(--fs-h3)", { lineHeight: "var(--lh-h3)" }],
+      h4: ["var(--fs-h4)", { lineHeight: "var(--lh-h4)" }],
+      h5: ["var(--fs-h5)", { lineHeight: "var(--lh-h5)" }],
+      h6: ["var(--fs-h6)", { lineHeight: "var(--lh-h6)" }],
+      "large-base": [
+        "var(--fs-base-large)",
+        { lineHeight: "var(--lh-base-large)" },
+      ],
+      base: ["var(--fs-base)", { lineHeight: "var(--lh-base)" }],
+      footer: ["var(--fs-footer)", { lineHeight: "var(--lh-footer)" }],
+    },
     colors: {
       "grey-50": "var(--grey-50)",
       "peach-50": "var(--peach-50)",
