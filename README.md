@@ -37,5 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Key takeaways of this exercise
 
-1. In global.css specify the color variables and their corresponding hexadecimal/rgba values
-2. Next define the colors in your Tailwind CSS configuration file. Assuming you are using a file like tailwind.config.js, you can extend the theme section to include your custom colors.
+1. In global.css import the google fonts and specify the text sizes and line height variables
+2. Next define the text-variables in your Tailwind CSS configuration file. Assuming you are using a file like tailwind.config.js, you can extend the theme section to include your custom text size.
